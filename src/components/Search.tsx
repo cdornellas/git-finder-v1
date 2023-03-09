@@ -19,12 +19,12 @@ const Search = ({loadUser}: SearchProps) => {
 
     return (
         <div className={classes.search}>
-            <h2>Busque por um usuário: </h2>
-            <p>Conheça seus melhores repositórios</p>
+            <h2>Git Repositórios</h2>
             <div className={classes.search_container}>
-                <input type="text" placeholder="Digite o nome do usuário" onChange={(e) => setUserName(e.target.value)} onKeyDown={handKeyDow}/>
+                <input type="text" placeholder="Nome do usuário" onChange={(e) => setUserName(e.target.value)} onKeyDown={handKeyDow}/>
+                <input type="text" placeholder="Nome do repositório"/>
                 <button onClick={() => loadUser(userName)}>
-                    <BsSearch />
+                    Adicionar
                 </button>
             </div>
         </div>

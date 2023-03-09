@@ -1,39 +1,49 @@
 .user{
-    background-color: #2b3566;
+    margin-top: 10%;
+    background: radial-gradient(113.13% 377.42% at 0% 47.45%, #BFDCFF 0%, #103CE7 0.01%, #64E9FF 66.66%, #FFFFFF 100%);
     padding: 2rem;
     border-radius: 1rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.2rem;
+    width: 100%;
+    height: 100%;
 }
 
 .user img{
-    width: 140px;
-    height: 140px;
-    border: 4px solid #644aff;
+    width: 180px;
+    height: 180px;
+    border: 4px solid #45AAF6;
     border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
 }
 
 .location {
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    margin: 5%;
 }
 
 .location svg {
-    fill: #4ed8c7;
+    fill: #103CE7;
     font-size: 1.5rem;
 }
 
 .location span {
-    color: #9da5d1;
+    color: black;
     font-weight: bold;
 }
 
 .stats {
     display: flex;
+    margin: 5%;
 }
 
 .stats div {
@@ -43,11 +53,11 @@
 }
 
 .stats div:first-child {
-    border-right: 1px solid #9da59d;
+    border-right: 2px solid #103CE7;
 }
 
 .stats .number {
-    background-color: #4ed8c7;
+    background-color: #45AAF6;
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
 }
@@ -64,3 +74,22 @@
 .user a:hover {
     opacity: 1;
 }
+
+.description {
+    background: #45AAF6;
+    border: 0.5px solid #45AAF6;
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000000;
+    font-weight: bold;
+}
+
+p {
+    color: #000000;
+    margin: 5%;
+}
+
