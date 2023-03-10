@@ -62,3 +62,7 @@
     border: 0;
     cursor: pointer;
 }
+
+.search_container button:hover {
+    background-color: #3779AB;
+}

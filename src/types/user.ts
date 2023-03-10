@@ -5,4 +5,7 @@ export type UserProps = {
     bio: string,
     followers: number,
     following: number
+    name: string,
+    svn_url: string,
+    created_at: number
 };

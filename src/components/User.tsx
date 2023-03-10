@@ -34,8 +34,6 @@ const User = ({
                 )}
                 <p className={classes.description}>{bio}</p>
             </div>
-
-
         </div>
     )
 }
